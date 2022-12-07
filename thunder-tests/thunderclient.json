@@ -1,0 +1,106 @@
+[
+  {
+    "_id": "a95eaef6-60ce-4a9a-bce1-b81b2595df10",
+    "colId": "656ea2f4-a9e0-423c-98c1-de2dac864c27",
+    "containerId": "85ccc61f-ebd1-42f8-b976-2ee221813d40",
+    "name": "all",
+    "url": "{{baseUrl}}/type-weapon",
+    "method": "GET",
+    "sortNum": 20000,
+    "created": "2022-12-07T13:04:13.024Z",
+    "modified": "2022-12-07T13:06:57.919Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"label\": \"hache\" \n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "2f498477-733f-419a-bd10-88f1b2404369",
+    "colId": "656ea2f4-a9e0-423c-98c1-de2dac864c27",
+    "containerId": "85ccc61f-ebd1-42f8-b976-2ee221813d40",
+    "name": "new type weapon Copy",
+    "url": "{{baseUrl}}/type-weapon",
+    "method": "POST",
+    "sortNum": 30000,
+    "created": "2022-12-07T13:06:36.781Z",
+    "modified": "2022-12-07T13:07:40.394Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"label\": \"nunchaku\" \n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "f2e0199b-5c11-4f53-a511-637c67ad223f",
+    "colId": "656ea2f4-a9e0-423c-98c1-de2dac864c27",
+    "containerId": "76b5b82f-826b-4998-87e8-9eeeee54badc",
+    "name": "all",
+    "url": "{{baseUrl}}/hero",
+    "method": "GET",
+    "sortNum": 30000,
+    "created": "2022-12-07T13:08:03.569Z",
+    "modified": "2022-12-07T13:08:49.662Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "5f11a375-a313-4588-81d7-fce47248a5ba",
+    "colId": "656ea2f4-a9e0-423c-98c1-de2dac864c27",
+    "containerId": "76b5b82f-826b-4998-87e8-9eeeee54badc",
+    "name": "all Copy",
+    "url": "{{baseUrl}}/hero",
+    "method": "POST",
+    "sortNum": 40000,
+    "created": "2022-12-07T13:09:22.742Z",
+    "modified": "2022-12-07T13:12:39.181Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"name\": \"Maurice\",\n  \"weapon\": {\n    \"id\": 1,\n    \"label\": \"hache\"\n  }\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "0ae6995a-3c55-4874-9d2e-7d429daf0202",
+    "colId": "656ea2f4-a9e0-423c-98c1-de2dac864c27",
+    "containerId": "71aa6411-26b8-494f-b1ff-c0b79f510c53",
+    "name": "all",
+    "url": "{{baseUrl}}/tournament",
+    "method": "GET",
+    "sortNum": 40000,
+    "created": "2022-12-07T13:13:47.898Z",
+    "modified": "2022-12-07T13:13:56.395Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "63d4538f-f913-4343-9f2b-fbd22ebd6b0c",
+    "colId": "656ea2f4-a9e0-423c-98c1-de2dac864c27",
+    "containerId": "71aa6411-26b8-494f-b1ff-c0b79f510c53",
+    "name": "all Copy",
+    "url": "{{baseUrl}}/tournament",
+    "method": "POST",
+    "sortNum": 50000,
+    "created": "2022-12-07T13:14:26.377Z",
+    "modified": "2022-12-07T13:16:24.998Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"name\": \"Simplon-octogone\",\n  \"date\": \"12/23/2022\",\n  \"heros\": [\n    {\n      \"id\": 1,\n      \"name\": \"Bernard\"\n    },\n    {\n      \"id\": 2,\n      \"name\": \"Maurice\"\n    }\n  ]\n}",
+      "form": []
+    },
+    "tests": []
+  }
+]

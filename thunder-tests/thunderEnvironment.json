@@ -1,0 +1,16 @@
+[
+  {
+    "_id": "e8651cb8-00f0-4526-ae25-49c991cdf103",
+    "name": "Experiment-local",
+    "default": true,
+    "sortNum": 10000,
+    "created": "2022-12-07T13:04:49.634Z",
+    "modified": "2022-12-07T13:04:49.634Z",
+    "data": [
+      {
+        "name": "baseUrl",
+        "value": "http://localhost:8080/api"
+      }
+    ]
+  }
+]
